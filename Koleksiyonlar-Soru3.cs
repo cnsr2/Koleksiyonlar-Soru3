@@ -7,8 +7,6 @@ using System.Collections.Generic;
         {
             Console.WriteLine("Cümlenizi Giriniz.");
             string cümle = Console.ReadLine();
-            string[] cümledizisi = new string[cümle.Count()];
-            //string[] harfler = new string[8];
             ArrayList harfler = new ArrayList();
             foreach (var item in cümle)
             {
